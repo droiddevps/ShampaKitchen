@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_submit_recipe"
+            android:icon="@android:drawable/btn_star"
+            android:title="Submit a recipe" />
+
+
+        <item
+            android:id="@+id/nav_tips_trick"
+            android:icon="@android:drawable/btn_star"
+            android:title="Tips &amp; Tricks" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@android:drawable/btn_star"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@android:drawable/btn_star"
+            android:title="Terms &amp; Condition" />
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@android:drawable/btn_star"
+            android:title="Privacy Policy" />
+
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_item_main"
+    android:background="@drawable/buttonbg"
+    android:paddingBottom="@dimen/_15sdp"
+    android:paddingLeft="@dimen/_20sdp"
+    android:paddingRight="@dimen/_20sdp"
+    android:paddingTop="@dimen/_15sdp">
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/sub_cat_txtv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:autoSizeMinTextSize="@dimen/_12sdp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
